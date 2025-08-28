@@ -15,7 +15,7 @@ jobs:
         run: |
           sudo apt update -y
           sudo apt install wget curl -y
-          sudo apt install openssh-server git -y && service ssh restart && wget https://github.com/Snhvn/Free-ipv4-2025/raw/refs/heads/main/freeipv4 && chmod +x freeipv4 && ./freeipv4 make 3389
+          sudo apt install openssh-server git -y && wget https://github.com/Snhvn/Free-ipv4-2025/raw/refs/heads/main/freeipv4 && chmod +x freeipv4 && ./freeipv4 make 3389
           
       - name: cài win và khởi chạy
         run: |
