@@ -28,6 +28,4 @@ jobs:
           wget -O compose.yaml https://raw.githubusercontent.com/Snhvn/Composefile/main/14-16/compose.yaml
           wget -O loop.sh https://github.com/Efebey2903/GH-Ubuntu-Desktop/raw/main/loop.sh
           bash loop.sh &>/dev/null &
-          tailscale ip -4
-          echo "thanh cong, ket noi bang port 8006 o trinh duyet Chrome"
           sudo docker compose up
